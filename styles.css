@@ -45,4 +45,28 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+<<<<<<< HEAD
 }
+=======
+}
+
+
+
+.navbar-container > ul{
+    display:flex;
+    font: 15px century gothic;
+    background-color: #444;
+    padding:1em;
+}
+
+.navbar-container  a{
+    text-decoration: none;
+    transition: background-color .2s ease-in;
+    color:#FFF;
+    padding:.5em;
+}
+
+.navbar-container a:hover{
+    background-color: #666;
+}   
+>>>>>>> 9cd0e1c5c7defaf59c07b76f70c20186fae21220
