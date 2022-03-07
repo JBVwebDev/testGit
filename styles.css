@@ -16,7 +16,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 blockquote,
 pre,
 a,
@@ -84,14 +83,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -106,125 +104,137 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+	display: block;
 }
 
 body {
-    line-height: 1;
+	line-height: 1;
+	padding-top: 20px;
 }
 
 ol,
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+	quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+	content: '';
+	content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.navbar-container>ul {
-    display: flex;
-    font: 15px century gothic;
-    background-color: #444;
-    padding: 1em;
+.navbar-container > ul {
+	display: flex;
+	font: 15px century gothic;
+	background-color: #444;
+	padding: 1em;
 }
 
 .navbar-container a {
-    text-decoration: none;
-    transition: background-color .2s ease-in;
-    color: #FFF;
-    padding: .5em;
+	text-decoration: none;
+	transition: background-color 0.2s ease-in;
+	color: #fff;
+	padding: 0.5em;
 }
 
 .navbar-container a:hover {
-    background-color: #666;
+	background-color: #666;
 }
 
 .footer-container {
-    display: flex;
-    font: 15px century gothic;
-    background-color: #444;
-    padding: 1em;
+	display: flex;
+	font: 15px century gothic;
+	background-color: #444;
+	padding: 1em;
 }
 
 .footer-container a:hover {
-    background-color: #666;
+	background-color: #666;
 }
 
-.footer-container a { 
-    text-decoration: none;   
-    transition: background-color .2s ease-in;
-    color: #FFF;
-    padding: .5em;
+.footer-container a {
+	text-decoration: none;
+	transition: background-color 0.2s ease-in;
+	color: #fff;
+	padding: 0.5em;
 }
 
 .footer-container p {
-    color: white;
+	color: white;
 }
 
 .container-2 {
-    display: flexbox;
-    padding: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+	display: flexbox;
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.images, .buttons  {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;   
-    flex-wrap: wrap; 
-    width: 100%;  
-  }
+.images,
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+}
 
-  #dog-img {
-    background-color: #fff;
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-    border-radius: 15px;
-  }
-  
-  #dog-img img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    border-radius: 15px;
-  }
-  
-  #btn-dog {
-    margin: 10px;
-    padding: 2px 12px;
-    border-radius: 5px;
-    outline: none;  
-    font-family: inherit;
-    font-size: 36px;
-    font-weight: 600;
-    color: #fff;
-    background-color: #114D99;
-  }
-  
-  #btn-dog:hover {
-    background-color: #EA9306;
-    transform: scale(1.2);
-  }
-  
-  #btn-dog:active {
-    transform: scale(.9);
-  }
+#dog-img {
+	background-color: #fff;
+	margin: 10px;
+	width: 300px;
+	height: 300px;
+	border-radius: 15px;
+}
 
-  
+#dog-img img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+}
+
+#btn-dog {
+	margin: 10px;
+	padding: 2px 12px;
+	border-radius: 5px;
+	outline: none;
+	font-family: inherit;
+	font-size: 36px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #114d99;
+}
+
+#btn-dog:hover {
+	background-color: #ea9306;
+	transform: scale(1.2);
+}
+
+#btn-dog:active {
+	transform: scale(0.9);
+}
+.about-title {
+	font-family: sans-serif;
+	font-size: 30px;
+	text-align: center;
+}
+.link {
+	padding: 10px;
+	background-color: crimson;
+	color: #fff;
+	text-decoration: none;
+	font-family: sans-serif;
+}
